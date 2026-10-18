@@ -10,7 +10,7 @@ import android.webkit.ValueCallback;
 import android.content.Intent;
 import android.net.Uri;
 import android.provider.MediaStore;
-import android.webkit.FileChooserParams;
+import android.webkit.WebChromeClient.FileChooserParams;
 
 public class MainActivity extends Activity {
     private WebView webView;
